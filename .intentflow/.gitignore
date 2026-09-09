@@ -1,0 +1,4 @@
+# IntentFlow gitignore
+store/
+backups/
+metrics/
