@@ -68,6 +68,38 @@ $insertArray = [1,2,3];
 $insertArray[$index] = $number;
 
 
+//zadanie
+//za pomoca pętli for,while i do... while napisz skrypt,który będzie: Zwiększał zmienna $i od 1 do 100 o 2 nastepnie zmniejszal ją do 1 o 4
+
+for ($i = 1; $i <= 100; $i += 2) {
+    echo $i . " ";
+}
+for ($i = 100; $i >= 1; $i -= 4) {
+    echo $i . " ";
+}
+ 
+$i = 1;
+while ($i <= 100) {
+    echo $i . " ";
+    $i += 2;
+}
+$i = 100;
+while ($i >= 1) {
+    echo $i . " ";
+    $i -= 4;
+}
+ 
+ 
+$i = 1;
+do {
+    echo $i . " ";
+    $i += 2;
+} while ($i <= 100);
+$i = 100;
+do {
+    echo $i . " ";
+    $i -= 4;
+} while ($i >= 1);
 
 
 
